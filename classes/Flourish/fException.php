@@ -21,7 +21,7 @@
  */
 namespace Flourish;
 
-abstract class fException extends Exception
+abstract class fException extends \Exception
 {
 	/**
 	 * Callbacks for when exceptions are created
@@ -149,7 +149,7 @@ abstract class fException extends Exception
 	static public function registerCallback($callback, $exception_type=NULL)
 	{
 		if ($exception_type === NULL) {
-			$exception_type = 'fException';	
+			$exception_type = 'Flourish\fException';	
 		}
 		
 		if (!isset(self::$callbacks[$exception_type])) {
@@ -241,10 +241,10 @@ abstract class fException extends Exception
 				get_class($this),
 				$required_args
 			);
-			throw new Exception($message);	
+			throw new \Exception($message);	
 		}
 		
-		$args = array_map(array('fException', 'dump'), $args);
+		$args = array_map(array('Flourish\fException', 'dump'), $args);
 		
 		parent::__construct(self::compose($message, $args));
 		$this->code = $code;

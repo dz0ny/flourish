@@ -169,7 +169,7 @@ class fImage extends fFile
 				
 				// If exec is disabled we can't use imagemagick
 				if (in_array('exec', array_map('trim', explode(',', ini_get('disable_functions'))))) {
-					throw new Exception();
+					throw new \Exception();
 				}
 				
 				if (fCore::checkOS('windows')) {
@@ -179,7 +179,7 @@ class fImage extends fFile
 						$win_output = trim(join("\n", $win_output));
 						 
 						if (!$win_output || stripos($win_output, 'File not found') !== FALSE) {
-							throw new Exception();
+							throw new \Exception();
 						}
 						 
 						$path = 'C:\\Program Files\\' . $win_output . '\\';
@@ -222,7 +222,7 @@ class fImage extends fFile
 					
 					// We have no fallback in solaris
 					if (!$found && fCore::checkOS('solaris')) {
-						throw new Exception();
+						throw new \Exception();
 					}
 					
 					
@@ -232,7 +232,7 @@ class fImage extends fFile
 						$nix_output = trim(str_replace('convert:', '', join("\n", $nix_output)));
 						
 						if (!$nix_output) {
-							throw new Exception();
+							throw new \Exception();
 						}
 					
 						$path = preg_replace('#^(.*)convert$#i', '\1', $nix_output);
@@ -244,7 +244,7 @@ class fImage extends fFile
 						$osx_output = trim(join("\n", $osx_output));
 						
 						if (!$osx_output) {
-							throw new Exception();
+							throw new \Exception();
 						}
 					
 						if (preg_match('#^(.*)convert#i', $osx_output, $matches)) {
@@ -261,7 +261,7 @@ class fImage extends fFile
 				self::$imagemagick_dir = $path;
 				self::$processor = 'imagemagick';
 				
-			} catch (Exception $e) {
+			} catch (\Exception $e) {
 				
 				// Look for GD last since it does not support tiff files
 				if (function_exists('gd_info')) {

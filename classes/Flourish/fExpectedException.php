@@ -13,6 +13,7 @@
  * @changes    1.0.0b  The initial implementation [wb, 2007-06-14]
  */
 namespace Flourish;
+use Flourish\fException;
 
 class fExpectedException extends fException
 {
