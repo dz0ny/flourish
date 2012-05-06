@@ -29,8 +29,8 @@ namespace Flourish;
 class fXML implements ArrayAccess
 {
 	// The following constants allow for nice looking callbacks to static methods
-	const encode     = 'fXML::encode';
-	const sendHeader = 'fXML::sendHeader';
+	const encode     = 'Flourish\fXML::encode';
+	const sendHeader = 'Flourish\fXML::sendHeader';
 	
 	
 	/**

@@ -103,14 +103,14 @@ namespace Flourish;
 abstract class fActiveRecord
 {
 	// The following constants allow for nice looking callbacks to static methods
-	const assign          = 'fActiveRecord::assign';
-	const changed         = 'fActiveRecord::changed';
-	const checkConditions = 'fActiveRecord::checkConditions';
-	const forceConfigure  = 'fActiveRecord::forceConfigure';
-	const hasOld          = 'fActiveRecord::hasOld';
-	const reset           = 'fActiveRecord::reset';
-	const retrieveOld     = 'fActiveRecord::retrieveOld';
-	const validateClass   = 'fActiveRecord::validateClass';
+	const assign          = 'Flourish\fActiveRecord::assign';
+	const changed         = 'Flourish\fActiveRecord::changed';
+	const checkConditions = 'Flourish\fActiveRecord::checkConditions';
+	const forceConfigure  = 'Flourish\fActiveRecord::forceConfigure';
+	const hasOld          = 'Flourish\fActiveRecord::hasOld';
+	const reset           = 'Flourish\fActiveRecord::reset';
+	const retrieveOld     = 'Flourish\fActiveRecord::retrieveOld';
+	const validateClass   = 'Flourish\fActiveRecord::validateClass';
 	
 	
 	/**

@@ -20,9 +20,9 @@ namespace Flourish;
 
 class fValidationException extends fExpectedException
 {
-	const formatField      = 'fValidationException::formatField';
-	const removeFieldNames = 'fValidationException::removeFieldNames';
-	const setFieldFormat   = 'fValidationException::setFieldFormat';
+	const formatField      = 'Flourish\fValidationException::formatField';
+	const removeFieldNames = 'Flourish\fValidationException::removeFieldNames';
+	const setFieldFormat   = 'Flourish\fValidationException::setFieldFormat';
 	
 	/**
 	 * The formatting string to use for field names

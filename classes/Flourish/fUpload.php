@@ -32,9 +32,9 @@ namespace Flourish;
 class fUpload
 {
 	// The following constants allow for nice looking callbacks to static methods
-	const check  = 'fUpload::check';
-	const count  = 'fUpload::count';
-	const filter = 'fUpload::filter';
+	const check  = 'Flourish\fUpload::check';
+	const count  = 'Flourish\fUpload::count';
+	const filter = 'Flourish\fUpload::filter';
 	
 	
 	/**

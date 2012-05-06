@@ -19,15 +19,15 @@ namespace Flourish;
 class fBuffer
 {
 	// The following constants allow for nice looking callbacks to static methods
-	const erase        = 'fBuffer::erase';
-	const get          = 'fBuffer::get';
-	const isStarted    = 'fBuffer::isStarted';
-	const replace      = 'fBuffer::replace';
-	const reset        = 'fBuffer::reset';
-	const start        = 'fBuffer::start';
-	const startCapture = 'fBuffer::startCapture';
-	const stop         = 'fBuffer::stop';
-	const stopCapture  = 'fBuffer::stopCapture';
+	const erase        = 'Flourish\fBuffer::erase';
+	const get          = 'Flourish\fBuffer::get';
+	const isStarted    = 'Flourish\fBuffer::isStarted';
+	const replace      = 'Flourish\fBuffer::replace';
+	const reset        = 'Flourish\fBuffer::reset';
+	const start        = 'Flourish\fBuffer::start';
+	const startCapture = 'Flourish\fBuffer::startCapture';
+	const stop         = 'Flourish\fBuffer::stop';
+	const stopCapture  = 'Flourish\fBuffer::stopCapture';
 	
 	
 	/**

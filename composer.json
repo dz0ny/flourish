@@ -24,10 +24,5 @@
     },
     "autoload": {
         "psr-0": { "Flourish": "classes/" }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "master"
-        }
     }
 }

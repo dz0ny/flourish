@@ -22,27 +22,27 @@ namespace Flourish;
 class fAuthorization
 {
 	// The following constants allow for nice looking callbacks to static methods
-	const addNamedIPRange  = 'fAuthorization::addNamedIPRange';
-	const checkACL         = 'fAuthorization::checkACL';
-	const checkAuthLevel   = 'fAuthorization::checkAuthLevel';
-	const checkIP          = 'fAuthorization::checkIP';
-	const checkLoggedIn    = 'fAuthorization::checkLoggedIn';
-	const destroyUserInfo  = 'fAuthorization::destroyUserInfo';
-	const getLoginPage     = 'fAuthorization::getLoginPage';
-	const getRequestedURL  = 'fAuthorization::getRequestedURL';
-	const getUserACLs      = 'fAuthorization::getUserACLs';
-	const getUserAuthLevel = 'fAuthorization::getUserAuthLevel';
-	const getUserToken     = 'fAuthorization::getUserToken';
-	const requireACL       = 'fAuthorization::requireACL';
-	const requireAuthLevel = 'fAuthorization::requireAuthLevel';
-	const requireLoggedIn  = 'fAuthorization::requireLoggedIn';
-	const reset            = 'fAuthorization::reset';
-	const setAuthLevels    = 'fAuthorization::setAuthLevels';
-	const setLoginPage     = 'fAuthorization::setLoginPage';
-	const setRequestedURL  = 'fAuthorization::setRequestedURL';
-	const setUserACLs      = 'fAuthorization::setUserACLs';
-	const setUserAuthLevel = 'fAuthorization::setUserAuthLevel';
-	const setUserToken     = 'fAuthorization::setUserToken';
+	const addNamedIPRange  = 'Flourish\fAuthorization::addNamedIPRange';
+	const checkACL         = 'Flourish\fAuthorization::checkACL';
+	const checkAuthLevel   = 'Flourish\fAuthorization::checkAuthLevel';
+	const checkIP          = 'Flourish\fAuthorization::checkIP';
+	const checkLoggedIn    = 'Flourish\fAuthorization::checkLoggedIn';
+	const destroyUserInfo  = 'Flourish\fAuthorization::destroyUserInfo';
+	const getLoginPage     = 'Flourish\fAuthorization::getLoginPage';
+	const getRequestedURL  = 'Flourish\fAuthorization::getRequestedURL';
+	const getUserACLs      = 'Flourish\fAuthorization::getUserACLs';
+	const getUserAuthLevel = 'Flourish\fAuthorization::getUserAuthLevel';
+	const getUserToken     = 'Flourish\fAuthorization::getUserToken';
+	const requireACL       = 'Flourish\fAuthorization::requireACL';
+	const requireAuthLevel = 'Flourish\fAuthorization::requireAuthLevel';
+	const requireLoggedIn  = 'Flourish\fAuthorization::requireLoggedIn';
+	const reset            = 'Flourish\fAuthorization::reset';
+	const setAuthLevels    = 'Flourish\fAuthorization::setAuthLevels';
+	const setLoginPage     = 'Flourish\fAuthorization::setLoginPage';
+	const setRequestedURL  = 'Flourish\fAuthorization::setRequestedURL';
+	const setUserACLs      = 'Flourish\fAuthorization::setUserACLs';
+	const setUserAuthLevel = 'Flourish\fAuthorization::setUserAuthLevel';
+	const setUserToken     = 'Flourish\fAuthorization::setUserToken';
 	
 	
 	/**
